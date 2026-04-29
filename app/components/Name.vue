@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    Name and age
+    Name, age, email
   </div>
 </template>
 

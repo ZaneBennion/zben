@@ -38,9 +38,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 30vw;
 }
 .picture {
-  max-width: 500px;
+  
 }
 .bio {
 }
