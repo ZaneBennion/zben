@@ -1,10 +1,7 @@
 <template>
   <div class="container">
-    <div class="name">Zane Bennion</div>
+    <div class="name-header">Zane Bennion</div>
     <div class="age">{{ age }} Years Old</div>
-    <div class="contact">Contact Me: 
-      <a href="mailto:zanebennion@gmail.com">zanebennion@gmail.com</a>
-    </div>
   </div>
 </template>
 
@@ -12,13 +9,18 @@
 .container {
   width: 100%;
   height: 100%;
+  container-type: inline-size;
 
   display: flex;
   flex-direction: column;
+  align-items: end;
 }
 
-.name {
-  color: pink;
+.name-header {
+  font-size: 7cqw;
+}
+.age {
+  font-size: 3cqw;
 }
 </style>
 

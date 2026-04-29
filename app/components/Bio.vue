@@ -10,6 +10,12 @@
       I enjoy music production and art, I’m still an amateur but you can check out 
       what I’ve made <a href="https://www.instagram.com/ak_zman/" target="_blank">here</a>!
     </div>
+    <div class="you">You:</div>
+    <div class="you-text">Wow! That's awesome! How can I contact you?</div>
+    <div class="me">Zane:</div>
+    <div class="me-text">
+      My email is <a href="mailto:zanebennion@gmail.com" target="_blank">zanebennion@gmail.com</a>! Feel free to contact me anytime :p
+    </div>
   </div>
 </template>
 
@@ -21,7 +27,8 @@
 
   display: grid;
   grid-template-columns: min-content 1fr;
-  grid-template-rows: min-content min-content;
+  grid-template-rows: repeat(4, min-content);
+  row-gap: 16px;
 }
 
 .you {
