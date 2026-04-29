@@ -18,6 +18,9 @@
 <style lang="css">
 body {
   margin: 0%;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .background {
