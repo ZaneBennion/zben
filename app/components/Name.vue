@@ -8,7 +8,7 @@
 <style lang="css" scoped>
 .container {
   width: 100%;
-  height: 100%;
+  height: min-content;
   container-type: inline-size;
 
   display: flex;

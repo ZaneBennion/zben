@@ -23,7 +23,7 @@
 .container {
   background-color: aliceblue;
   width: 100%;
-  height: 100%;
+  height: min-content;
 
   display: grid;
   grid-template-columns: min-content 1fr;

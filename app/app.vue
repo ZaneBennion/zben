@@ -38,7 +38,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 30vw;
+  max-width: 500px;
 }
 .picture {
   
@@ -56,6 +56,21 @@ body {
 }
 .experience {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+  .background {
+    flex-direction: column;
+  }
+
+  .left-col {
+    max-width: none;
+    width: 100vw;
+  }
+
+  .picture {
+    max-width: 400px;
+  }
 }
 </style>
