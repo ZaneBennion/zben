@@ -37,6 +37,7 @@ body {
 .left-col {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .picture {
   max-width: 500px;
