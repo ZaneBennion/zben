@@ -1,0 +1,27 @@
+<template>
+  <div class="picture">
+    <img class="border" src="/img/profileBorder.png">
+    <img class="image" src="/img/zane.webp">
+  </div>
+</template>
+
+<style lang="css" scoped>
+.picture {
+ display: grid; 
+ position: relative;
+ place-items: center;
+}
+
+.border {
+  grid-area: 1/1;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  grid-area: 1/1;
+  width: 77%;
+  height: 77%;
+}
+</style>

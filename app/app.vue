@@ -1,6 +1,6 @@
 <template>
   <div class="background">
-    Hello :3
+    <ProfilePicture class="profile"/>
   </div>
 </template>
 
@@ -15,5 +15,9 @@ body {
   background-image: url("/img/bliss.webp");
   background-size: cover;
   background-position: center;
+}
+
+.profile {
+  width: 30vw;
 }
 </style>
