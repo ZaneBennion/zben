@@ -1,12 +1,12 @@
 <template>
-  <div class="picture">
+  <div class="container">
     <img class="border" src="/img/profileBorder.png">
     <img class="image" src="/img/zane.webp">
   </div>
 </template>
 
 <style lang="css" scoped>
-.picture {
+.container {
  display: grid; 
  position: relative;
  place-items: center;

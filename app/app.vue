@@ -1,6 +1,17 @@
 <template>
   <div class="background">
-    <ProfilePicture class="profile"/>
+    <div class="left-col">
+      <ProfilePicture class="picture"/>
+      <Bio class="bio"/>
+    </div>
+    <div class="right-col">
+      <Name class="name"/>
+      <div class="experience">
+        <Education/>
+        <Work/>
+        <Projects/>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -15,9 +26,31 @@ body {
   background-image: url("/img/bliss.webp");
   background-size: cover;
   background-position: center;
+
+  display: flex;
+  flex-direction: row;
 }
 
-.profile {
-  width: 30vw;
+.left-col {
+  display: flex;
+  flex-direction: column;
+}
+.picture {
+  max-width: 500px;
+}
+.bio {
+}
+
+.right-col {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.name {
+
+}
+.experience {
+  display: flex;
+  flex-direction: row;
 }
 </style>
