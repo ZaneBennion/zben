@@ -30,6 +30,7 @@
     width: 100%;
     min-width: 0;
     height: min-content;
+    padding: var(--conponent-pad);
 
     display: grid;
     grid-template-columns: min-content 1fr;

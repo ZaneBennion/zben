@@ -18,6 +18,7 @@
 <style lang="css">
 :root {
     --main-gap: 12px;
+    --conponent-pad: 4px;
 }
 
 * {
@@ -37,7 +38,7 @@ body {
     background-image: url("/img/bliss.webp");
     background-size: cover;
     background-position: center;
-    padding: 12px;
+    padding: var(--main-gap);
     overflow-y: scroll;
 
     display: flex;
@@ -51,6 +52,7 @@ body {
     max-width: 500px;
     align-items: start;
     gap: var(--main-gap);
+    min-width: 0;
 }
 .picture {
     flex: 1 1 auto;
@@ -59,6 +61,7 @@ body {
 }
 .bio {
     flex: 0 0 auto;
+    min-width: 0;
 }
 
 .right-col {
@@ -66,6 +69,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: var(--main-gap);
+    min-width: 0;
 }
 .name {
 }
