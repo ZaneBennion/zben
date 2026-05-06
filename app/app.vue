@@ -76,6 +76,7 @@ body {
 .experience {
     display: flex;
     flex-direction: column;
+    gap: var(--main-gap);
 }
 
 @media screen and (max-width: 1024px) {

@@ -4,11 +4,10 @@
         <div class="you-text">Tell me about yourself</div>
         <div class="me">Zane:</div>
         <div class="me-text">
-            Hi, I'm Zane :) I've recently graduated from Utah State University
-            with a BS in <span class="highlight">Computer Science</span>. I’m
-            excited to start my career and am currently looking for a full-time
-            position. I enjoy music production and art, I’m still an amateur but
-            you can check out what I’ve made
+            Hi, I'm Zane :) I attended Utah State University and got a BS in
+            <span class="highlight">Computer Science</span>. I enjoy music
+            production and art, I’m still an amateur but you can check out what
+            I’ve made
             <a href="https://www.instagram.com/ak_zman/" target="_blank">here</a
             >!
         </div>

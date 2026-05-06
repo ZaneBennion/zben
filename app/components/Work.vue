@@ -1,5 +1,18 @@
 <template>
-    <div class="container">Work</div>
+    <div class="container">
+        <div class="header">Work</div>
+        <div class="body">
+            <div class="section">
+                <div class="section-header">
+                    <span class="section-title"> Vivint </span>
+                    <span class="section-date">Summer 2025</span>
+                </div>
+                <div class="section-body">
+                    I worked as a Platform Engineering Intern for Vivint.
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
 
 <style lang="css" scoped>
@@ -14,5 +27,28 @@
 
     width: 100%;
     height: 100%;
+}
+
+.header {
+    padding-bottom: var(--main-gap);
+    font-weight: bold;
+}
+
+.body {
+    padding-left: var(--main-gap);
+}
+
+.section {
+    padding-bottom: var(--main-gap);
+}
+.section-header {
+    display: flex;
+    font-weight: bold;
+}
+.section-title {
+    flex-grow: 1;
+}
+.section-body {
+    padding-left: var(--main-gap);
 }
 </style>
