@@ -26,16 +26,22 @@
 
 <style lang="css" scoped>
 .container {
-    background-color: aliceblue;
     width: 100%;
     min-width: 0;
     height: min-content;
-    padding: var(--conponent-pad);
 
     display: grid;
     grid-template-columns: min-content 1fr;
     grid-template-rows: repeat(4, min-content);
     row-gap: 16px;
+
+    background-color: #c0c0c0;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #808080;
+    border-bottom: 2px solid #808080;
+    padding: 10px;
+    box-shadow: 1px 1px 0px 1px #000000;
 }
 
 .you {
