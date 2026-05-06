@@ -4,7 +4,9 @@
         <div class="body">
             <div class="section">
                 <div class="section-header">
-                    <span class="section-title"> Vivint </span>
+                    <span class="section-title">
+                        <NuxtLink to="/vivint">Vivint</NuxtLink>
+                    </span>
                     <span class="section-date">Summer 2025</span>
                 </div>
                 <div class="section-body">

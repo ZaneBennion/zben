@@ -4,7 +4,9 @@
         <div class="body">
             <div class="section">
                 <div class="section-header">
-                    <span class="section-title"> HospiceFind </span>
+                    <span class="section-title">
+                        <NuxtLink to="/hospicefind">HospiceFind</NuxtLink>
+                    </span>
                     <span class="section-date">Aug 2025-Jan 2026</span>
                 </div>
                 <div class="section-body">
@@ -14,7 +16,11 @@
             </div>
             <div class="section">
                 <div class="section-header">
-                    <span class="section-title"> Oar We There Yet? </span>
+                    <span class="section-title">
+                        <NuxtLink to="/oarwethereyet">
+                            Oar We There Yet?
+                        </NuxtLink>
+                    </span>
                     <span class="section-date">Jan 2026-May 2026</span>
                 </div>
                 <div class="section-body">
