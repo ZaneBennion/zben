@@ -1,24 +1,43 @@
 <template>
     <div class="container">
-        <div class="you">You:</div>
-        <div class="you-text">Tell me about yourself</div>
-        <div class="me">Zane:</div>
-        <div class="me-text">
-            Hi, I'm Zane :) I attended Utah State University and got a BS in
-            <span class="highlight">Computer Science</span>. I enjoy music
-            production and art, I’m still an amateur but you can check out what
-            I’ve made
-            <a href="https://www.instagram.com/ak_zman/" target="_blank">here</a
-            >!
-        </div>
-        <div class="you">You:</div>
-        <div class="you-text">Wow! That's awesome! How can I contact you?</div>
-        <div class="me">Zane:</div>
-        <div class="me-text">
-            My email is
-            <a href="mailto:zanebennion@gmail.com" target="_blank"
-                >zanebennion@gmail.com</a
-            >! Feel free to contact me anytime :p
+        <div class="window">
+            <div class="title-bar">
+                <div class="title-bar-text">About</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <div class="field-border">
+                    <div>
+                        <span class="you">You:</span> Tell me about yourself
+                    </div>
+                    <div>
+                        <span class="me">Zane:</span> Hi, I'm Zane :) I attended
+                        Utah State University and got a BS in
+                        <span class="highlight">Computer Science</span>. I enjoy
+                        music production and art, I’m still an amateur but you
+                        can check out what I’ve made
+                        <a
+                            href="https://www.instagram.com/ak_zman/"
+                            target="_blank"
+                            >here</a
+                        >!
+                    </div>
+                    <div>
+                        <span class="you">You:</span> Wow! That's awesome! How
+                        can I contact you?
+                    </div>
+                    <div>
+                        <span class="me">Zane:</span> My email is
+                        <a href="mailto:zanebennion@gmail.com" target="_blank"
+                            >zanebennion@gmail.com</a
+                        >! Feel free to contact me anytime :p
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -28,35 +47,21 @@
     width: 100%;
     min-width: 0;
     height: min-content;
+}
 
-    display: grid;
-    grid-template-columns: min-content 1fr;
-    grid-template-rows: repeat(4, min-content);
-    row-gap: 16px;
-
-    background-color: #c0c0c0;
-    border-top: 2px solid #ffffff;
-    border-left: 2px solid #ffffff;
-    border-right: 2px solid #808080;
-    border-bottom: 2px solid #808080;
-    padding: 10px;
-    box-shadow: 1px 1px 0px 1px #000000;
+.field-border {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 8px;
 }
 
 .you {
-    justify-self: end;
     color: red;
-}
-.you-text {
-    min-width: 0;
 }
 
 .me {
-    justify-self: end;
     color: blue;
-}
-.me-text {
-    min-width: 0;
 }
 
 .highlight {
