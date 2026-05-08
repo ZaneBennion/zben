@@ -1,7 +1,7 @@
 import Parser from "rss-parser";
 
 export default defineEventHandler(async (event) => {
-    const feedUrl = "https://zane476797.substack.com/feed";
+    const feedUrl = "https://lovezane.substack.com/feed";
 
     // 1. Initialize the parser
     const parser = new Parser();
