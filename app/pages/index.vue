@@ -55,8 +55,6 @@
     gap: var(--main-gap);
     min-width: 0;
 }
-.name {
-}
 .experience {
     display: flex;
     flex-direction: column;
@@ -70,7 +68,7 @@
 
     .left-col {
         max-width: none;
-        width: 100vw;
+        width: 100%;
     }
 
     .picture {

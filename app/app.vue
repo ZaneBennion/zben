@@ -23,4 +23,8 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
+.window-body {
+    font-size: large;
+}
 </style>
