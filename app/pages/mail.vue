@@ -66,8 +66,12 @@
     margin-bottom: 8px;
 }
 
-.sunken-panel {
+table {
     font-size: large;
+    width: 100%;
+}
+td {
+    padding: var(--conponent-pad);
 }
 </style>
 
