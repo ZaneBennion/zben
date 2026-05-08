@@ -24,6 +24,16 @@ body {
     font-style: normal;
 }
 
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/img/bliss.webp");
+    background-size: cover;
+    background-position: center;
+    padding: var(--main-gap);
+    overflow-y: scroll;
+}
+
 .window-body {
     font-size: large;
 }

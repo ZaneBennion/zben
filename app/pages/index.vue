@@ -7,9 +7,14 @@
         <div class="right-col">
             <Name class="name" />
             <div class="experience">
-                <Education />
                 <Work />
                 <Projects />
+                <div class="edu-row">
+                    <Education />
+                    <NuxtLink to="/mail" class="mail">
+                        <img src="/img/mailIcon.webp" />
+                    </NuxtLink>
+                </div>
             </div>
         </div>
     </div>
@@ -17,14 +22,6 @@
 
 <style lang="css" scoped>
 .background {
-    width: 100vw;
-    height: 100vh;
-    background-image: url("/img/bliss.webp");
-    background-size: cover;
-    background-position: center;
-    padding: var(--main-gap);
-    overflow-y: scroll;
-
     display: flex;
     flex-direction: row;
     gap: var(--main-gap);
@@ -60,6 +57,14 @@
     flex-direction: column;
     gap: var(--main-gap);
 }
+.edu-row {
+    display: flex;
+}
+.mail {
+    padding: var(--main-gap);
+}
+.mail img {
+}
 
 @media screen and (max-width: 1024px) {
     .background {
@@ -73,6 +78,10 @@
 
     .picture {
         max-width: 400px;
+    }
+
+    .edu-row {
+        flex-direction: column;
     }
 }
 </style>
