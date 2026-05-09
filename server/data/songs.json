@@ -1,16 +1,16 @@
 [
-  {
-    "id": "1",
-    "title": "Midnight Synthwave",
-    "releaseDate": "2026-05-09",
-    "audioUrl": "https://pub-your-id.r2.dev/midnight-synthwave.mp3",
-    "coverUrl": "https://pub-your-id.r2.dev/midnight-cover.jpg"
-  },
-  {
-    "id": "2",
-    "title": "Lo-Fi Study Beats",
-    "releaseDate": "2025-11-20",
-    "audioUrl": "https://pub-your-id.r2.dev/lofi-beats.mp3",
-    "coverUrl": "https://pub-your-id.r2.dev/lofi-cover.jpg"
-  }
+    {
+        "id": "1",
+        "title": "pond",
+        "releaseDate": "2024-03-05",
+        "audioUrl": "https://media.zben.me/pond.wav",
+        "coverUrl": "/covers/pong.webp"
+    },
+    {
+        "id": "2",
+        "title": "static",
+        "releaseDate": "2024-03-05",
+        "audioUrl": "https://media.zben.me/pond.wav",
+        "coverUrl": "/img/bliss.webp"
+    }
 ]
