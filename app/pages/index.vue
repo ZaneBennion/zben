@@ -14,6 +14,9 @@
                     <NuxtLink to="/mail" class="mail">
                         <img src="/img/mailIcon.webp" />
                     </NuxtLink>
+                    <NuxtLink to="/music" class="mail">
+                        <img src="/img/mediaIcon.webp" />
+                    </NuxtLink>
                 </div>
             </div>
         </div>
