@@ -2,7 +2,7 @@
     {
         "id": "1",
         "title": "pond",
-        "releaseDate": "2024-03-05",
+        "releaseDate": "2023-11-04",
         "audioUrl": "https://media.zben.me/pond.wav",
         "coverUrl": "/covers/pong.webp"
     },
@@ -10,7 +10,56 @@
         "id": "2",
         "title": "static",
         "releaseDate": "2024-03-05",
-        "audioUrl": "https://media.zben.me/pond.wav",
-        "coverUrl": "/img/bliss.webp"
+        "audioUrl": "https://media.zben.me/static.wav",
+        "coverUrl": "/covers/static.webp"
+    },
+    {
+        "id": "3",
+        "title": "window",
+        "releaseDate": "2024-03-22",
+        "audioUrl": "https://media.zben.me/window.wav",
+        "coverUrl": "/covers/window.webp"
+    },
+    {
+        "id": "4",
+        "title": "cherry",
+        "releaseDate": "2024-04-20",
+        "audioUrl": "https://media.zben.me/cherry.wav",
+        "coverUrl": "/covers/cherry.webp"
+    },
+    {
+        "id": "5",
+        "title": "float",
+        "releaseDate": "2024-06-21",
+        "audioUrl": "https://media.zben.me/float.wav",
+        "coverUrl": "/covers/float.webp"
+    },
+    {
+        "id": "6",
+        "title": "bookend",
+        "releaseDate": "2024-09-08",
+        "audioUrl": "https://media.zben.me/static.wav",
+        "coverUrl": "/covers/static.webp"
+    },
+    {
+        "id": "7",
+        "title": "drift",
+        "releaseDate": "2026-03-03",
+        "audioUrl": "https://media.zben.me/drift.wav",
+        "coverUrl": "/covers/drift.webp"
+    },
+    {
+        "id": "8",
+        "title": "cleardrive",
+        "releaseDate": "2026-03-11",
+        "audioUrl": "https://media.zben.me/cleardrive.wav",
+        "coverUrl": "/covers/cleardrive.webp"
+    },
+    {
+        "id": "9",
+        "title": "flower",
+        "releaseDate": "2026-04-24",
+        "audioUrl": "https://media.zben.me/flower.wav",
+        "coverUrl": "/covers/flower.webp"
     }
 ]
