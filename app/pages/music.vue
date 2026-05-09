@@ -1,6 +1,8 @@
 <template>
     <div class="background">
-        <div class="player"></div>
+        <div class="player">
+            <MusicPlayer />
+        </div>
         <div class="songs"></div>
     </div>
 </template>
