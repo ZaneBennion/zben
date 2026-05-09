@@ -12,8 +12,18 @@
             <button class="default">Play/Pause</button>
             <div class="title">
                 Title:
-                <div class="field-border" style="padding: 8px">pond</div>
+                <div class="field-border">pond</div>
             </div>
         </div>
     </div>
 </template>
+
+<style lang="css" scoped>
+.title {
+    display: flex;
+    align-items: center;
+}
+.field-border {
+    padding: 8px;
+}
+</style>
