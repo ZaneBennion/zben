@@ -1,5 +1,19 @@
 <template>
-    <div class="container"></div>
+    <div class="container">
+        <div class="window">
+            <div class="title-bar">
+                <div class="title-bar-text">HospiceFind</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <p>There's so much room for activities!</p>
+            </div>
+        </div>
+    </div>
 </template>
 
 <style lang="css" scoped>
@@ -8,5 +22,11 @@
     height: 100vh;
     background-image: url("/img/hospicefindBG.webp");
     background-size: 20% auto;
+}
+
+.window {
+    max-width: 900px;
+    margin: auto;
+    height: 100%;
 }
 </style>
