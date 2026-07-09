@@ -32,8 +32,8 @@
                     </div>
                     <div>
                         <span class="me">Zane:</span> My email is
-                        <a href="mailto:zanebennion@gmail.com" target="_blank"
-                            >zanebennion@gmail.com</a
+                        <a href="mailto:zanebennion@zben.me" target="_blank"
+                            >zanebennion@zben.me</a
                         >! Feel free to contact me anytime :p
                     </div>
                 </div>

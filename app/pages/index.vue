@@ -7,8 +7,8 @@
         <div class="right-col">
             <Name class="name" />
             <div class="experience">
-                <Work />
                 <Projects />
+                <Work />
                 <div class="edu-row">
                     <Education />
                     <NuxtLink to="/mail" class="mail">

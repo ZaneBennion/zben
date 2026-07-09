@@ -25,9 +25,9 @@
                 <div class="section">
                     <div class="section-header">
                         <span class="section-title">
-                            <NuxtLink to="/oarwethereyet">
-                                Oar We There Yet?
-                            </NuxtLink>
+                            <a href="https://store.steampowered.com/app/4562170/Oar_We_There_Yet/" target="_blank">
+                               Oar We There Yet? 
+                            </a>
                         </span>
                         <span class="section-date">Jan 2026-May 2026</span>
                     </div>
@@ -35,6 +35,21 @@
                         An online cooperative game built using Godot and C#
                         where four friends try to raft down a river and face
                         unexpected challenges.
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="section-header">
+                        <span class="section-title">
+                            <a href="https://github.com/ZaneBennion/daily-budget" target="_blank">
+                               Daily Budget 
+                            </a>
+                        </span>
+                        <span class="section-date">Jul 2026</span>
+                    </div>
+                    <div class="section-body">
+                        A super simple budgeting app.
+                        You set an amount to get added to your budget every day and that's it.
+                        Enter your transactions to subtract from your budge.
                     </div>
                 </div>
             </div>
