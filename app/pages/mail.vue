@@ -13,9 +13,10 @@
                 <div class="window-body">
                     <div class="status-field-border">Inbox</div>
                     <div class="sunken-panel">
+                        
                         <!-- 1. Handle Loading and Error States -->
                         <div v-if="pending">Loading inbox...</div>
-                        <div v-else-if="error">Failed to load posts.</div>
+                        <div v-else-if="error">Failed to load posts: {{ error.message }}</div>
 
                         <!-- 2. Display the Data -->
                         <table v-else>
@@ -32,8 +33,8 @@
                                     v-for="post in data?.items"
                                     :key="post.link"
                                 >
-                                    <!-- Author Name -->
-                                    <td>{{ post.creator || data?.title }}</td>
+                                    <!-- Author Name (Uses the publication title since it's a single-author Substack) -->
+                                    <td>{{ data?.title }}</td>
 
                                     <!-- Post Title (Made into a clickable link!) -->
                                     <td>
@@ -76,11 +77,10 @@ td {
 </style>
 
 <script setup>
-// 1. Fetch the data from the API endpoint we just created
-// 'useFetch' automatically handles the async request and gives us helpful reactive variables
+// 1. Fetch the data from the Edge-compatible API endpoint
 const { data, pending, error } = await useFetch("/api/feed");
 
-// 2. A little helper function to make the raw RSS date look pretty
+// 2. Format the raw RSS date
 const formatDate = (dateString) => {
     if (!dateString) return "Unknown Date";
     const date = new Date(dateString);

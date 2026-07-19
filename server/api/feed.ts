@@ -1,27 +1,42 @@
-import Parser from "rss-parser";
+import { XMLParser } from 'fast-xml-parser';
 
 export default defineEventHandler(async (event) => {
     const feedUrl = "https://lovezane.substack.com/feed";
-    const parser = new Parser();
 
     try {
-        // 1. Use native fetch (works perfectly on Cloudflare Edge)
         const response = await fetch(feedUrl);
         
         if (!response.ok) {
             throw new Error(`Failed to fetch feed: ${response.statusText}`);
         }
 
-        // 2. Extract the raw XML text
         const xmlData = await response.text();
+        
+        const parser = new XMLParser();
+        const feed = parser.parse(xmlData);
 
-        // 3. Parse the XML string directly
-        const feed = await parser.parseString(xmlData);
+        const channel = feed.rss?.channel;
+
+        if (!channel) {
+             throw new Error("Invalid RSS feed format.");
+        }
+
+        // THE FIX: Guarantee rawItems is an array. 
+        // If it's undefined, make it an empty array. If it's a single object, wrap it in an array.
+        let rawItems = channel.item || [];
+        if (!Array.isArray(rawItems)) {
+            rawItems = [rawItems];
+        }
 
         return {
-            title: feed.title,
-            description: feed.description,
-            items: feed.items,
+            title: channel.title,
+            description: channel.description,
+            items: rawItems.map((post: any) => ({
+                title: post.title,
+                link: post.link,
+                pubDate: post.pubDate,
+                description: post.description
+            })), 
         };
     } catch (error) {
         console.error("Error parsing the RSS feed:", error);
