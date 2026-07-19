@@ -13,13 +13,16 @@
                 <div class="section">
                     <div class="section-header">
                         <span class="section-title">
-                            <NuxtLink to="/hospicefind">HospiceFind</NuxtLink>
+                            <a href="https://github.com/ZaneBennion/daily-budget" target="_blank">
+                                Daily Budget 
+                            </a>
                         </span>
-                        <span class="section-date">Aug 2025-Jan 2026</span>
+                        <span class="section-date">Jul 2026</span>
                     </div>
                     <div class="section-body">
-                        A progressive web app to help you search and sort
-                        hospices in your local area.
+                        A super simple budgeting app.
+                        You set an amount to get added to your budget every day and that's it.
+                        Enter your transactions to subtract from your budget.
                     </div>
                 </div>
                 <div class="section">
@@ -40,16 +43,13 @@
                 <div class="section">
                     <div class="section-header">
                         <span class="section-title">
-                            <a href="https://github.com/ZaneBennion/daily-budget" target="_blank">
-                               Daily Budget 
-                            </a>
+                            <NuxtLink to="/hospicefind">HospiceFind</NuxtLink>
                         </span>
-                        <span class="section-date">Jul 2026</span>
+                        <span class="section-date">Aug 2025-Jan 2026</span>
                     </div>
                     <div class="section-body">
-                        A super simple budgeting app.
-                        You set an amount to get added to your budget every day and that's it.
-                        Enter your transactions to subtract from your budge.
+                        A progressive web app to help you search and sort
+                        hospices in your local area.
                     </div>
                 </div>
             </div>

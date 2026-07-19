@@ -13,6 +13,19 @@
                 <div class="section">
                     <div class="section-header">
                         <span class="section-title">
+                            <a href="https://www.nexusdatasolutions.com/" target="_blank">
+                                neXus Data Solutions
+                            </a>
+                        </span>
+                        <span class="section-date">Jun 2026-Present</span>
+                    </div>
+                    <div class="section-body">
+                        Currently working as a Programmer Analyst 
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="section-header">
+                        <span class="section-title">
                             <NuxtLink to="/vivint">Vivint</NuxtLink>
                         </span>
                         <span class="section-date">Summer 2025</span>
