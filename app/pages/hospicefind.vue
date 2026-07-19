@@ -43,9 +43,9 @@
                     </div>
                 </div>
                 <div class="img-section">
-                    <img src="/img/newSearch.png"/>
-                    <img src="/img/averageDetail.png"/>
-                    <img src="/img/newCompare.png"/>
+                    <img class="status-field-border" src="/img/newSearch.png"/>
+                    <img class="status-field-border" src="/img/averageDetail.png"/>
+                    <img class="status-field-border" src="/img/newCompare.png"/>
                 </div>
             </div>
         </div>
@@ -88,6 +88,7 @@
 }
 img {
     width: 250px;
+    padding: 4px;
 }
 
 @media screen and (max-width: 1024px) {
