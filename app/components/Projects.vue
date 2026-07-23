@@ -13,6 +13,24 @@
                 <div class="section">
                     <div class="section-header">
                         <span class="section-title">
+                            <a href="https://github.com/ZaneBennion/yt-rss-email" target="_blank">
+                                YouTube Email Script
+                            </a>
+                        </span>
+                        <span class="section-date">Jul 2026</span>
+                    </div>
+                    <div class="section-body">
+                        A script that runs once a day, it pulls the newest Youtube videos
+                        from channels of your choice and sends you the 10
+                        newest that it hasn't previously sent.
+                        A good way to stay up to date with the channels you like
+                        without having to visit YouTube and get sucked in
+                        by the recommended videos :)
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="section-header">
+                        <span class="section-title">
                             <a href="https://github.com/ZaneBennion/daily-budget" target="_blank">
                                 Daily Budget 
                             </a>
