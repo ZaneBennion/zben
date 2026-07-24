@@ -2,6 +2,7 @@
     <div class="container">
         <img class="border" src="/img/profileBorder.png" />
         <img class="image" src="/img/zane.webp" />
+        <img class="star" src="/favicon.png" />
     </div>
 </template>
 
@@ -29,5 +30,12 @@
     min-width: 0;
     min-height: 0;
     object-fit: contain;
+}
+
+.star {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
 }
 </style>
