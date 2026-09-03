@@ -22,7 +22,9 @@
                             </div>
                             <div class="body">
                                 The server is only open for specific times on specific days.
-                                Times are in AKDT, translate to your timezone if needed.
+                                Times are in AKDT. If you want to participate in the server but
+                                consistently can't make it to any of the time slots please let me
+                                know, I can adjust the schedule.
                                 <div class="sunken-panel" >
                                   <table class="interactive" style="height: 80px; width: 240px;">
                                     <thead>
