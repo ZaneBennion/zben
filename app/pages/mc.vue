@@ -41,9 +41,9 @@
                                         <td>8:00pm</td>
                                       </tr>
                                       <tr>
-                                        <td>Saturday</td>
-                                        <td>7:00pm</td>
-                                        <td>10:00pm</td>
+                                        <td>Thursday</td>
+                                        <td>6:00pm</td>
+                                        <td>8:00pm</td>
                                       </tr>
                                     </tbody>
                                   </table>
